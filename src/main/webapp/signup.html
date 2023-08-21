@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>SignUp</h1>
+<form action="signup" method="post" enctype="multipart/form-data">
+	 <table style="background-color: burlywood; border: 2px solid brown;">
+	  <tr>
+		  <th>Name :</th>
+		  <td><input type="text" name="name"></td>
+	  </tr>
+	  <tr>
+		  <th>Email:</th>
+		  <td><input type="email" name="email"></td>
+	  </tr>
+	   <tr>
+		  <th>Mobile:</th>
+		  <td><input type="tel" pattern="[0-9]{10}" name="mobile"></td>
+	  </tr>
+	  <tr>
+		  <th>Password :</th>
+		  <td><input type="password" name="password"></td>
+	  </tr>
+	   <tr>
+		  <th>Gender:</th>
+		  <td><input type="radio" name="gender" id="male" value="male"><label for="male">Male</label><input type="radio" name="gender" id="female" value="female"><label for="male">Female</label><input type="radio" name="gender" id="other" value="other"><label for="other">Other</label></td>
+	  </tr>
+	  <tr>
+		  <th>Picture :</th>
+		  <td><input type="file" value="Upload Image" name="image"></td>
+	  </tr>
+	  <tr>
+		  <th>Country :</th>
+		  <td><select  name="country">
+			  <option >select country</option>
+			  <option >india</option>
+			  <option >pakistan</option>
+			  <option >srilanka</option>
+			  </select>
+		  </td>
+	  </tr>
+	  <tr>
+		  <th>Date :</th>
+		  <td><input type="date" name="date"></td>
+	  </tr>
+	  <tr>
+		  <th><button>Signup</button></th>
+		 <a href="./Home.html"><th><button>Cancel</button></th></a> 
+	  </tr>
+  </table>
+</form>
+ 
+  <div>
+	  <a href="./Forgot.html" style="position: relative; left: 60px; text-decoration: none;">Forgot Password?</a>
+  </div>
+  <div>
+	  <a href="./Login.html" style="position: relative; left: 40px; text-decoration: none; ">Already Have an Account</a>
+  </div> 
+
+</body>
+</html>
